@@ -4,6 +4,8 @@
 
 Este é um repositorio para salvar tudo oque eu estou aprendendo sobre canvas.
 
+[X] - Sprite animations
+
 ## Tecnologias
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
