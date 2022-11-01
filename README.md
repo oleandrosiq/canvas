@@ -5,6 +5,7 @@
 Este é um repositorio para salvar tudo oque eu estou aprendendo sobre canvas.
 
 - [x] - Sprite animations
+- [x] - Parallax Effect
 
 ## Tecnologias
 
