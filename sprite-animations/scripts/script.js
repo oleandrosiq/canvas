@@ -5,7 +5,6 @@ dropdown.addEventListener('change', (e) => {
   playerState = e.target.value;
 });
 
-
 const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
 
@@ -15,13 +14,21 @@ const CANVAS_HEIGHT = canvas.height = 600;
 const playerImage = new Image();
 playerImage.src = 'shadow_dog.png';
 
-const spriteWidth = 575;
+// Proporções da imagem - (6876x5230)
+
+// 12 === Numero de colunas
+// (6876 / 12) === 573;
+// 10 === Numero de linhas
+// (5230 / 10) === 523;
+
+// Proporções da sprite => local onde vai ser cortado
+const spriteWidth = 575 
 const spriteHeight = 523;
 
 let gameFrame = 0;
 
 const staggerFrames = 5;
-const spriteAnimations = [];
+const spriteAnimations = {};
 const animationsStates = [
   {
     name: 'idle',
@@ -100,5 +107,5 @@ animate();
 // sh => Altura do corte da imagem
 // px => Posição do eixo x onde a imagem cortada vai ficar
 // py => Posição do eixo y onde a imagem cortada vai ficar
-// dw => Largura da imagem cortad
-// dh => Altura da imagem cortad
+// dw => Largura da imagem cortada
+// dh => Altura da imagem cortada
