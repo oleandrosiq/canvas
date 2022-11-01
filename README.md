@@ -1,8 +1,10 @@
-<h1 align="center">Estudos sobre canvas</h1>
+<h1 align="center">Aprendendo canvas</h1>
 
 ## 💻 Repositorio
 
-Este é um repositorio para eu salvar tudo oque eu estou aprendendo sobre canvas.
+Este é um repositorio para salvar tudo oque eu estou aprendendo sobre canvas.
+
+- [x] - Sprite animations
 
 ## Tecnologias
 
